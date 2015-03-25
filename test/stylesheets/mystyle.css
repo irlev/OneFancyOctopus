@@ -1,0 +1,148 @@
+body{
+height:100%;
+width:100%;
+margin:0;
+
+}
+
+ul{
+	list-style:none;
+
+}
+.user_date{
+
+}
+/*---MONTH---*/
+.task_month {
+
+height:30%;
+width:13.8%;
+padding-top:2px;
+padding-right:2px;
+
+float: left;
+text-align:right;
+background-color:white;
+border: 1px solid black;
+
+}
+
+div .task_month p{
+text-align:left;
+height: 60px;
+margin: 5px;
+}
+/*---DAY---*/
+#d_day{
+background-color:white;
+border:1px solid black;
+width: 100%;
+height: 56px;
+padding:0px;
+}
+#d_time{
+text-align:center;
+border-right:1px solid black;
+margin:0px;
+height:56px;
+width:4%;
+}
+div#d_date{
+	text-align: center;
+	border:1px solid black;
+}
+
+
+/*---WEEK---*/
+div#wd_names{
+	width: 95%;
+	margin:0 0 0 5%;
+}
+div#wd_names ul{
+	margin: 0;
+
+	padding: 0;
+
+}
+
+div#wd_names ul li{
+	text-align: center;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	border: 1px solid black;
+	width: 13.6%;
+	height: 10px;
+	margin:  0 -4px 0 0;
+	display: inline-block;
+}
+
+div#wd_date{
+	text-align: center;
+	border:1px solid black;
+	margin:0 3.5% 0 5%;
+}
+div#wd_times{
+	margin: 0 0 0 0;
+	width:5%;
+	float:left;
+}
+
+div#wd_times ul{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	
+}
+div#wd_times ul li{
+	border: 1px solid black;
+	
+	padding: 14px 0 14px 0;
+	text-align: center;
+	display: block;
+	height: 10px;
+	
+	
+}
+div#wd_days{
+	width:95%;
+	float:left;
+}
+div#task_week{
+
+	border: 1px solid black;
+	width: 13.6%;
+	height: 38px;
+	display: inline-block;
+	margin:0 0 -4px 0;
+}
+/*---MAIN FRAME---*/
+
+#sidebar{
+	margin: 0;
+	width:20%;
+	height: 500px;
+	float: left;
+}
+#content{
+	width:80%;
+	height: 500px;
+	float:left;
+
+}
+
+ul#header{
+	list-style:none;
+	padding: 0;
+	margin: 20px 0 10px 0;
+}
+ul#header li{
+
+	display: inline;
+	margin-right: 20px;
+}
+ul#header li#user{
+
+	margin: 20px 55% 10px 20px;
+}
+div#ch_date{
+	padding: 20px 5px 20px 5px;
+}

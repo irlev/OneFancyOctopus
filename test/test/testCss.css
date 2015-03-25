@@ -1,0 +1,10 @@
+ul#header{
+	list-style:none;
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+ul#header li{
+
+	display: inline;
+	margin-right: 10px;
+}
